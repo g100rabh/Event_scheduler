@@ -1,0 +1,10 @@
+Steps to Use the Application:
+
+1) Open the application in your browser or use the following link:  https://kamtech-task.firebaseapp.com/ .
+2) Add a new event by entering your email and filling out all the necessary details. (Please note that the email is used for reference purposes.)
+3) To view your scheduled events, click on the "Scheduled Events" button at the top of the application.
+4) Enter your email to fetch the scheduled events associated with it.
+5) You can view your scheduled events in both list and calendar formats by Clicking button on the right with calendar and list icon(for calendar view with week, day, and agenda).
+6) Edit and delete options are available. Clicking on "Edit" will open a form with the previous data, allowing you to make changes.
+7) If you want to add more events, click on the "Event Schedule" button at the top of the application to add new events.
+8) Finally, you can reset the fetched email data if you want to retrieve events for a different user or email.
