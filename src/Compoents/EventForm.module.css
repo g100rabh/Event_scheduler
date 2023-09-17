@@ -1,0 +1,86 @@
+.formCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 2rem auto;
+  border: 2px solid green;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.formCon span {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formCon label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formCon input {
+  width: 30rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.formCon button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formCon button {
+  margin-top: 10px;
+}
+
+.formCon button {
+  display: block;
+  margin: 0 auto;
+}
+
+.formCon h1 {
+    margin-bottom: 1rem;
+}
+
+.btnCon{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {  /*for tablet */
+    .formCon {
+    width:75%;
+      margin: 3rem auto;
+      padding: 1.5rem;
+    }
+  
+    .formCon input {
+      width: 20rem;
+    }
+  }
+  
+  
+  @media (max-width: 480px) { /*for mobile*/
+    .formCon {
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .formCon input {
+        width: 15rem;
+      }
+  }
+  
